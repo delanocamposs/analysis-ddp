@@ -6,7 +6,6 @@ import sys
 
 
 def run(mass, lifetime, year, cat):
-    #summary plots build their own histograms from the ntuples; no datacard needed
     plot_summary.run(mass, lifetime, year, cat)
 
 
